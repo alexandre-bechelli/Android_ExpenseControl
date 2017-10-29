@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="2">
+
+
+        <TextView
+            android:id="@+id/txt_bar_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginRight="60dp"
+            android:text="Codigo de barras" />
+
+        <TextView
+            android:id="@+id/txt_descricao_cadastro"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:text="Descrição" />
+
+        <TextView
+            android:id="@+id/txt_valor_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="right|center_vertical"
+            android:autoText="true"
+            android:contextClickable="false"
+            android:duplicateParentState="false"
+            android:elegantTextHeight="true"
+            android:fontFamily="monospace"
+            android:freezesText="false"
+            android:lineSpacingExtra="8sp"
+            android:text="Valor"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:typeface="normal" />
+
+    </GridLayout>
+</LinearLayout>
